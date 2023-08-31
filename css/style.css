@@ -381,40 +381,41 @@ main {
 
 .usados-uno a img {
     width: 300px;
+    margin: 5px;
 
 }
 
 
 .usados-dos img {
-    width: 300px;
+    width: 300px; margin: 5px;
 }
 
 
 .usados-tres img {
-    width: 300px;
+    width: 300px; margin: 5px;
 }
 
 .usados.cuatro img {
-    width: 300px;
+    width: 300px; margin: 5px;
 }
 
 
 .usados-cinco img {
-    width: 300px;
+    width: 300px; margin: 5px;
 }
 
 
 .usados-seis img {
-    width: 300px;
+    width: 300px; margin: 5px;
 }
 
 .usados-siete img {
-    width: 300px;
+    width: 300px; margin: 5px;
 }
 
 
 .usados-ocho img {
-    width: 300px;
+    width: 300px; margin: 5px;
 }
 
 /*contacto*/
@@ -452,6 +453,8 @@ main {
 
 /*--------------------------------------------------------------------------*/
 /*La empresa*/
+
+
 .padre-empresa {
     display: flex;
     justify-content: center;
@@ -472,6 +475,7 @@ main {
         "texto-uno-empresa texto-uno-empresa imagen-uno-empresa imagen-uno-empresa";
     align-items: center;
     justify-items: center;
+    margin: 5px;
 }
 
 
