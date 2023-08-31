@@ -270,18 +270,21 @@ main {
 
 
 .auto-dos img {
-    width: 300px;  margin: 5px;
+    width: 300px;
+    margin: 5px;
 }
 
 
 
 .auto-tres img {
-    width: 300px;  margin: 5px;
+    width: 300px;
+    margin: 5px;
 }
 
 
 .auto-cuatro img {
-    width: 300px;  margin: 5px;
+    width: 300px;
+    margin: 5px;
 }
 
 
@@ -291,7 +294,8 @@ main {
 
 /*main*/
 
-.container {  display: grid;
+.container-usados {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-auto-columns: 1fr;
@@ -299,48 +303,114 @@ main {
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "usados-uno usados-dos usados-tres usados-cuatro"
-      "p-usados-uno p-usados-dos p-usados-tres p-usados-cuatro"
-      "usados-cinco usados-seis usados-siete usados-ocho"
-      "p-usados-cinco p-usados-seis p-usados-siete p-usados-ocho";
-  }
-  
-  .usados-uno { grid-area: usados-uno; }
-  
-  .usados-dos { grid-area: usados-dos; }
-  
-  .usados-tres { grid-area: usados-tres; }
-  
-  .usados-cuatro { grid-area: usados-cuatro; }
-  
-  .p-usados-uno { grid-area: p-usados-uno; }
-  
-  .p-usados-dos { grid-area: p-usados-dos; }
-  
-  .p-usados-tres { grid-area: p-usados-tres; }
-  
-  .p-usados-cuatro { grid-area: p-usados-cuatro; }
-  
-  .usados-cinco { grid-area: usados-cinco; }
-  
-  .usados-seis { grid-area: usados-seis; }
-  
-  .usados-siete { grid-area: usados-siete; }
-  
-  .usados-ocho { grid-area: usados-ocho; }
-  
-  .p-usados-cinco { grid-area: p-usados-cinco; }
-  
-  .p-usados-seis { grid-area: p-usados-seis; }
-  
-  .p-usados-siete { grid-area: p-usados-siete; }
-  
-  .p-usados-ocho { grid-area: p-usados-ocho; }
-  
+        "usados-uno usados-dos usados-tres usados-cuatro"
+        "p-usados-uno p-usados-dos p-usados-tres p-usados-cuatro"
+        "usados-cinco usados-seis usados-siete usados-ocho"
+        "p-usados-cinco p-usados-seis p-usados-siete p-usados-ocho";
+}
+
+.usados-uno {
+    grid-area: usados-uno;
+}
+
+.usados-dos {
+    grid-area: usados-dos;
+}
+
+.usados-tres {
+    grid-area: usados-tres;
+}
+
+.usados-cuatro {
+    grid-area: usados-cuatro;
+}
+
+.p-usados-uno {
+    grid-area: p-usados-uno;
+}
+
+.p-usados-dos {
+    grid-area: p-usados-dos;
+}
+
+.p-usados-tres {
+    grid-area: p-usados-tres;
+}
+
+.p-usados-cuatro {
+    grid-area: p-usados-cuatro;
+}
+
+.usados-cinco {
+    grid-area: usados-cinco;
+}
+
+.usados-seis {
+    grid-area: usados-seis;
+}
+
+.usados-siete {
+    grid-area: usados-siete;
+}
+
+.usados-ocho {
+    grid-area: usados-ocho;
+}
+
+.p-usados-cinco {
+    grid-area: p-usados-cinco;
+}
+
+.p-usados-seis {
+    grid-area: p-usados-seis;
+}
+
+.p-usados-siete {
+    grid-area: p-usados-siete;
+}
+
+.p-usados-ocho {
+    grid-area: p-usados-ocho;
+}
 
 
+.usados-uno a img {
+    width: 300px;
+
+}
 
 
+.usados-dos img {
+    width: 300px;
+}
+
+
+.usados-tres img {
+    width: 300px;
+}
+
+.usados.cuatro img {
+    width: 300px;
+}
+
+
+.usados-cinco img {
+    width: 300px;
+}
+
+
+.usados-seis img {
+    width: 300px;
+}
+
+.usados-siete img {
+    width: 300px;
+}
+
+
+.usados-ocho img {
+    width: 300px;
+}
 
 /*contacto*/
 
@@ -352,14 +422,14 @@ main {
 
 }
 
-.mapa{
+.mapa {
     display: flex;
     justify-content: center;
- 
+
 }
 
 
-.mapa iframe{
+.mapa iframe {
     margin: 5px;
 }
 
@@ -530,22 +600,22 @@ main {
     /* CONTACTO*/
 
 
- 
-    
-    .mapa{
+
+
+    .mapa {
         display: flex;
         justify-content: center;
-     
+
     }
-    
-    
-    .mapa iframe{
+
+
+    .mapa iframe {
         margin: 5px;
         width: 200px;
     }
-    
-    
-  
+
+
+
     .btn {
         width: 75px;
     }
@@ -612,30 +682,125 @@ main {
 
     .auto-uno img {
         width: 200px;
-  
+
     }
 
 
     .auto-dos img {
         width: 200px;
-        
+
     }
 
 
 
     .auto-tres img {
         width: 200px;
-       
+
     }
 
 
     .auto-cuatro img {
         width: 200px;
-       
+
     }
 
+    /*USADOS*/
+    .container-usados {  display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "usados-uno"
+          "p-usados-uno"
+          "usados-dos"
+          "p-usados-dos"
+          "usados-tres"
+          "p-usados-tres"
+          "usados-cuatro"
+          "p-usados-cuatro"
+          "usados-cinco"
+          "p-usados-cinco"
+          "usados-seis"
+          "p-usados-seis"
+          "usados-siete"
+          "p-usados-siete"
+          "usados-ocho"
+          "p-usados-ocho";
+      }
+      
+      .usados-uno { grid-area: usados-uno; }
+      
+      .p-usados-uno { grid-area: p-usados-uno; }
+      
+      .usados-dos { grid-area: usados-dos; }
+      
+      .p-usados-dos { grid-area: p-usados-dos; }
+      
+      .usados-tres { grid-area: usados-tres; }
+      
+      .p-usados-tres { grid-area: p-usados-tres; }
+      
+      .usados-cuatro { grid-area: usados-cuatro; }
+      
+      .p-usados-cuatro { grid-area: p-usados-cuatro; }
+      
+      .usados-cinco { grid-area: usados-cinco; }
+      
+      .p-usados-cinco { grid-area: p-usados-cinco; }
+      
+      .usados-seis { grid-area: usados-seis; }
+      
+      .p-usados-seis { grid-area: p-usados-seis; }
+      
+      .usados-siete { grid-area: usados-siete; }
+      
+      .p-usados-siete { grid-area: p-usados-siete; }
+      
+      .usados-ocho { grid-area: usados-ocho; }
+      
+      .p-usados-ocho { grid-area: p-usados-ocho; }
 
-
+      .usados-uno a img {
+        width: 200px;
+    
+    }
+    
+    
+    .usados-dos img {
+        width: 200px;
+    }
+    
+    
+    .usados-tres img {
+        width: 200px;
+    }
+    
+    .usados.cuatro img {
+        width: 200px;
+    }
+    
+    
+    .usados-cinco img {
+        width: 200px;
+    }
+    
+    
+    .usados-seis img {
+        width: 200px;
+    }
+    
+    .usados-siete img {
+        width: 200px;
+    }
+    
+    
+    .usados-ocho img {
+        width: 200px;
+    }
+      
 
     /*LA EMPRESA*/
 
