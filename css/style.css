@@ -1,0 +1,644 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@font-face {
+    font-family: "titulo-cursiva";
+    src: url('../recursos/fonts/RussoOne-Regular.ttf');
+}
+
+/*Barra de navegación*/
+h1 {
+    margin: 2rem;
+    box-shadow: 0px 20px 17px 0px;
+    font-family: "titulo-cursiva";
+    color: darkslategray;
+
+}
+
+.navbar {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #f5f6f7;
+
+}
+
+
+
+.navbar a:hover {
+    font-family: sans-serif;
+
+
+}
+
+.navbar a:active {
+    background-color: #f5f6f7;
+    color: rgb(87, 77, 22);
+
+
+}
+
+.navbar a {
+    color: gray;
+
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*INICIO*/
+/*Main*/
+main {
+
+    margin: 2rem;
+
+}
+
+h2 {
+    font-family: "titulo-cursiva"
+}
+
+
+
+.roads {
+
+    text-align: center;
+    padding: 5px;
+
+}
+
+.padre-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-rows: 3fr 3fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    margin: 5px;
+    justify-items: center;
+    grid-template-areas:
+        "imagen-cotizaciones imagen-servicio imagen-mante"
+        "p-cotizaciones p-servicio p-mante";
+}
+
+.imagen-cotizaciones {
+    grid-area: imagen-cotizaciones;
+
+
+}
+
+.imagen-servicio {
+    grid-area: imagen-servicio;
+
+
+}
+
+.imagen-mante {
+    grid-area: imagen-mante;
+
+
+}
+
+.p-cotizaciones {
+    grid-area: p-cotizaciones;
+
+}
+
+.p-servicio {
+    grid-area: p-servicio;
+
+}
+
+.p-mante {
+    grid-area: p-mante;
+
+}
+
+
+.imagen-cotizaciones img {
+    width: 300px;
+    margin: 5px;
+}
+
+
+.imagen-mante img {
+    width: 300px;
+    margin: 5px;
+
+}
+
+.imagen-servicio img {
+    width: 300px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+footer {
+    background-color: #f5f6f7;
+    margin: 2rem;
+}
+
+.footer-imagenes {
+
+    background-color: #f5f6f7;
+    display: flex;
+    justify-content: center;
+
+
+
+
+}
+
+.footer-imagenes a img {
+    width: 30px;
+    margin: 5px;
+
+}
+
+
+
+.parrafo {
+    text-align: center;
+    padding: auto;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.rights {
+
+    color: gray;
+    text-align: start;
+    padding: auto;
+    margin: 40px;
+}
+
+/*nuevos*/
+
+
+/*main*/
+main {
+    background-color: #f5f6f7;
+}
+
+.main-nuevos {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-autos {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-nuevos {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr;
+    grid-template-rows: 3fr 3fr 3fr 3fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    margin: 5px;
+    justify-items: center;
+    grid-template-areas:
+
+        "auto-uno auto-dos auto-tres auto-cuatro"
+        "p-auto-uno p-auto-dos p-auto-tres p-auto-cuatro"
+        ". . . ."
+        ". . . .";
+}
+
+.auto-uno {
+    grid-area: auto-uno;
+}
+
+.auto-dos {
+    grid-area: auto-dos;
+}
+
+.auto-tres {
+    grid-area: auto-tres;
+}
+
+.auto-cuatro {
+    grid-area: auto-cuatro;
+}
+
+.p-auto-uno {
+    grid-area: p-auto-uno;
+}
+
+.p-auto-dos {
+    grid-area: p-auto-dos;
+}
+
+.p-auto-tres {
+    grid-area: p-auto-tres;
+}
+
+.p-auto-cuatro {
+    grid-area: p-auto-cuatro;
+}
+
+
+
+.auto-uno img {
+    width: 300px;
+    margin: 5px;
+}
+
+
+.auto-dos img {
+    width: 300px;  margin: 5px;
+}
+
+
+
+.auto-tres img {
+    width: 300px;  margin: 5px;
+}
+
+
+.auto-cuatro img {
+    width: 300px;  margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contacto*/
+
+
+
+
+.form-floating {
+    width: 300px;
+
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+
+.mapa iframe{
+    margin: 5px;
+}
+
+
+.btn {
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------*/
+/*La empresa*/
+.padre-empresa {
+    display: flex;
+    justify-content: center;
+}
+
+.container-empresa {
+    display: grid;
+    grid-template-columns: 8fr 8fr 8fr 8fr;
+    grid-template-rows: 8fr 8fr 8fr 8fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+
+    grid-template-areas:
+        "imagen-empresa imagen-empresa texto-empresa texto-empresa"
+        "imagen-empresa imagen-empresa texto-empresa texto-empresa"
+        "texto-uno-empresa texto-uno-empresa imagen-uno-empresa imagen-uno-empresa"
+        "texto-uno-empresa texto-uno-empresa imagen-uno-empresa imagen-uno-empresa";
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+.imagen-empresa {
+    grid-area: imagen-empresa;
+}
+
+.texto-empresa {
+    grid-area: texto-empresa;
+}
+
+.texto-uno-empresa {
+    grid-area: texto-uno-empresa;
+}
+
+.imagen-uno-empresa {
+    grid-area: imagen-uno-empresa;
+}
+
+
+.imagen-empresa img {
+    width: 500px;
+}
+
+.imagen-uno-empresa img {
+    width: 500px;
+}
+
+.texto-empresa p {
+    text-align: center;
+}
+
+.texto-uno-empresa p {
+    text-align: center;
+}
+
+
+
+/*RESPONSIVE*/
+
+/*Inicio*/
+
+@media screen and (max-width: 1024px) {
+    .navbar-brand {
+        display: none;
+
+    }
+
+
+
+
+
+    h1 {
+        color: black;
+        box-shadow: none;
+
+    }
+
+    h2 {
+        visibility: hidden;
+    }
+
+    h3 {
+
+        text-transform: none;
+    }
+
+
+    .rights {
+        visibility: hidden;
+    }
+
+
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-columns: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "imagen-cotizaciones"
+            "p-cotizaciones"
+            "imagen-servicio"
+            "p-servicio"
+            "imagen-mante"
+            "p-mante";
+
+    }
+
+    .imagen-cotizaciones {
+        grid-area: imagen-cotizaciones;
+    }
+
+    .p-cotizaciones {
+        grid-area: p-cotizaciones;
+    }
+
+    .imagen-servicio {
+        grid-area: imagen-servicio;
+    }
+
+    .p-servicio {
+        grid-area: p-servicio;
+    }
+
+    .imagen-mante {
+        grid-area: imagen-mante;
+    }
+
+    .p-mante {
+        grid-area: p-mante;
+    }
+
+    .imagen-cotizaciones img {
+        width: 200px;
+    }
+
+
+    .imagen-servicio img {
+        width: 200px;
+    }
+
+    .imagen-mante img {
+        width: 200px;
+    }
+
+
+    /* CONTACTO*/
+
+
+ 
+    
+    .mapa{
+        display: flex;
+        justify-content: center;
+     
+    }
+    
+    
+    .mapa iframe{
+        margin: 5px;
+        width: 200px;
+    }
+    
+    
+  
+    .btn {
+        width: 75px;
+    }
+
+
+    /*NUEVOS*/
+
+    .container-nuevos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "auto-uno"
+            "p-auto-uno"
+            "auto-dos"
+            "p-auto-dos"
+            "auto-tres"
+            "p-auto-tres"
+            "auto-cuatro"
+            "p-auto-cuatro";
+    }
+
+    .auto-uno {
+        grid-area: auto-uno;
+    }
+
+    .p-auto-uno {
+        grid-area: p-auto-uno;
+    }
+
+    .auto-dos {
+        grid-area: auto-dos;
+    }
+
+    .p-auto-dos {
+        grid-area: p-auto-dos;
+    }
+
+    .auto-tres {
+        grid-area: auto-tres;
+    }
+
+    .p-auto-tres {
+        grid-area: p-auto-tres;
+    }
+
+    .auto-cuatro {
+        grid-area: auto-cuatro;
+    }
+
+    .p-auto-cuatro {
+        grid-area: p-auto-cuatro;
+    }
+
+
+
+
+
+
+
+    .auto-uno img {
+        width: 200px;
+  
+    }
+
+
+    .auto-dos img {
+        width: 200px;
+        
+    }
+
+
+
+    .auto-tres img {
+        width: 200px;
+       
+    }
+
+
+    .auto-cuatro img {
+        width: 200px;
+       
+    }
+
+
+
+
+    /*LA EMPRESA*/
+
+    .container-empresa {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            ". imagen-empresa ."
+            ". texto-empresa ."
+            ". imagen-uno-empresa ."
+            ". texto-uno-empresa .";
+        align-items: center;
+    }
+
+    .imagen-empresa {
+        grid-area: imagen-empresa;
+    }
+
+    .texto-empresa {
+        grid-area: texto-empresa;
+    }
+
+    .imagen-uno-empresa {
+        grid-area: imagen-uno-empresa;
+    }
+
+    .texto-uno-empresa {
+        grid-area: texto-uno-empresa;
+    }
+
+
+
+
+    .imagen-empresa img {
+        width: 300px;
+        margin: 5px;
+
+    }
+
+
+    .imagen-uno-empresa img {
+        width: 300px;
+        margin: 5px;
+    }
+
+
+
+
+}
