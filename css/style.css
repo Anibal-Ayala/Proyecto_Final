@@ -310,6 +310,8 @@ main {
         "p-usados-uno p-usados-dos p-usados-tres p-usados-cuatro"
         "usados-cinco usados-seis usados-siete usados-ocho"
         "p-usados-cinco p-usados-seis p-usados-siete p-usados-ocho";
+        margin: 5px;
+        justify-items: center;
 }
 
 .usados-uno {
