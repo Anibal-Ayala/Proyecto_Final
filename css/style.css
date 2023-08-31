@@ -52,6 +52,10 @@ h1 {
 
 /*INICIO*/
 /*Main*/
+
+p{
+    font-family: "titulo-cursiva";
+}
 main {
 
     margin: 2rem;
