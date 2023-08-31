@@ -185,8 +185,7 @@ footer {
     text-align: center;
     padding: auto;
     color: gray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+   
 }
 
 .rights {
@@ -481,6 +480,7 @@ main {
 
 .texto-empresa {
     grid-area: texto-empresa;
+    font-family: "titulo-cursiva";
 }
 
 .texto-uno-empresa {
