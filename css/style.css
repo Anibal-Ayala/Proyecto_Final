@@ -30,10 +30,7 @@ h3{
     font-family: "titulo-cursiva-dos";
     margin: 2rem;
 }
-h4{
-    font-family: "titulo-cursiva-dos";
-    
-}
+
 
 .navbar {
     margin: 2rem;
@@ -233,6 +230,7 @@ footer {
 .menu-footer ul li p {
     font-family: "titulo-cursiva-dos";
     font-size: 15px;
+    
 }
 
 .menu-footer ul li a {
@@ -563,7 +561,7 @@ h6{
     /*NUEVOS*/
     .onix{
         display: flex;
-        justify-content: space-evenly;
+      flex-direction: column;
     }
     
     li{
