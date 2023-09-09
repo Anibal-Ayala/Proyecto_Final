@@ -26,6 +26,15 @@ h1 {
 
 }
 
+h3{
+    font-family: "titulo-cursiva-dos";
+    margin: 2rem;
+}
+h4{
+    font-family: "titulo-cursiva-dos";
+    
+}
+
 .navbar {
     margin: 2rem;
     padding: 2rem;
@@ -240,6 +249,13 @@ footer {
     width: 25px;
 }
 
+.parrafo-footer {
+    margin: 2rem;
+}
+
+.parrafo.footer p{ 
+    font-weight: bolder;
+}
 
 .rights p {
     text-align: center;
@@ -256,116 +272,41 @@ footer {
 
 /*main*/
 main {
-    background-color: #f5f6f7;
+    background-color:white;
 }
 
-.main-nuevos {
+.onix{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
-.titulo-autos {
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.onix ul li img{
+    width: 100px;
+   
+}
+
+
+.onix-imagen{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 2rem;
+   
 }
 
-
-.container-nuevos {
-    display: grid;
-    grid-template-columns: 5fr 5fr 5fr 5fr;
-    grid-template-rows: 3fr 3fr 3fr 3fr;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    margin: 5px;
-    justify-items: center;
-    grid-template-areas:
-
-        "auto-uno auto-dos auto-tres auto-cuatro"
-        "p-auto-uno p-auto-dos p-auto-tres p-auto-cuatro"
-        ". . . ."
-        ". . . .";
-    transition: all .2s;
+.onix-imagen img{
+    width: 500px;
 }
 
-.auto-uno {
-    grid-area: auto-uno;
-    transition: all .2s
+h6{
+    margin: 2rem;
 }
 
-.auto-dos {
-    grid-area: auto-dos;
-    transition: all .2s;
-}
-
-.auto-tres {
-    grid-area: auto-tres;
-    transition: all .2s;
-}
-
-.auto-cuatro {
-    grid-area: auto-cuatro;
-    transition: all .2s;
-}
-
-.p-auto-uno {
-    grid-area: p-auto-uno;
-}
-
-.p-auto-dos {
-    grid-area: p-auto-dos;
-}
-
-.p-auto-tres {
-    grid-area: p-auto-tres;
-}
-
-.p-auto-cuatro {
-    grid-area: p-auto-cuatro;
-}
-
-
-
-.auto-uno img {
-    width: 300px;
-    margin: 5px;
-}
-
-
-.auto-dos img {
-    width: 300px;
-    margin: 5px;
-}
-
-
-
-.auto-tres img {
-    width: 300px;
-    margin: 5px;
-}
-
-
-.auto-cuatro img {
-    width: 300px;
-    margin: 5px;
-}
-
-.auto-uno:hover {
-    transform: scale(1.2);
-}
-
-
-.auto-dos:hover {
-    transform: scale(1.2);
-}
-
-
-.auto-tres:hover {
-    transform: scale(1.2);
-}
-
-.auto-cuatro:hover {
-    transform: scale(1.2);
+.onix-precio{
+    margin: 2rem;
 }
 
 /*------------------------------------------------------------------------*/
@@ -374,133 +315,7 @@ main {
 
 /*main*/
 
-.container-usados {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "usados-uno usados-dos usados-tres usados-cuatro"
-        "p-usados-uno p-usados-dos p-usados-tres p-usados-cuatro"
-        "usados-cinco usados-seis usados-siete usados-ocho"
-        "p-usados-cinco p-usados-seis p-usados-siete p-usados-ocho";
-    margin: 5px;
-    justify-items: center;
-}
 
-.usados-uno {
-    grid-area: usados-uno;
-}
-
-.usados-dos {
-    grid-area: usados-dos;
-}
-
-.usados-tres {
-    grid-area: usados-tres;
-}
-
-.usados-cuatro {
-    grid-area: usados-cuatro;
-}
-
-.p-usados-uno {
-    grid-area: p-usados-uno;
-}
-
-.p-usados-dos {
-    grid-area: p-usados-dos;
-}
-
-.p-usados-tres {
-    grid-area: p-usados-tres;
-}
-
-.p-usados-cuatro {
-    grid-area: p-usados-cuatro;
-}
-
-.usados-cinco {
-    grid-area: usados-cinco;
-}
-
-.usados-seis {
-    grid-area: usados-seis;
-}
-
-.usados-siete {
-    grid-area: usados-siete;
-}
-
-.usados-ocho {
-    grid-area: usados-ocho;
-}
-
-.p-usados-cinco {
-    grid-area: p-usados-cinco;
-}
-
-.p-usados-seis {
-    grid-area: p-usados-seis;
-}
-
-.p-usados-siete {
-    grid-area: p-usados-siete;
-}
-
-.p-usados-ocho {
-    grid-area: p-usados-ocho;
-}
-
-
-.usados-uno a img {
-    width: 300px;
-    margin: 5px;
-
-}
-
-
-.usados-dos img {
-    width: 300px;
-    margin: 5px;
-}
-
-
-.usados-tres img {
-    width: 300px;
-    margin: 5px;
-}
-
-.usados.cuatro img {
-    width: 300px;
-    margin: 5px;
-}
-
-
-.usados-cinco img {
-    width: 300px;
-    margin: 5px;
-}
-
-
-.usados-seis img {
-    width: 300px;
-    margin: 5px;
-}
-
-.usados-siete img {
-    width: 300px;
-    margin: 5px;
-}
-
-
-.usados-ocho img {
-    width: 300px;
-    margin: 5px;
-}
 
 /*contacto*/
 
@@ -746,217 +561,42 @@ main {
 
 
     /*NUEVOS*/
-
-    .container-nuevos {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-auto-columns: 1fr;
-        grid-auto-rows: 1fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "auto-uno"
-            "p-auto-uno"
-            "auto-dos"
-            "p-auto-dos"
-            "auto-tres"
-            "p-auto-tres"
-            "auto-cuatro"
-            "p-auto-cuatro";
+    .onix{
+        display: flex;
+        justify-content: space-evenly;
     }
-
-    .auto-uno {
-        grid-area: auto-uno;
+    
+    li{
+        text-decoration: none;
+        list-style: none;
     }
-
-    .p-auto-uno {
-        grid-area: p-auto-uno;
+    .onix ul li img{
+    width: 100px;
+       
     }
+    
+    
+    .onix-imagen{
+      display: flex;
+    margin: 2rem;
+    flex-direction: column-reverse;
+    align-items: center;
 
-    .auto-dos {
-        grid-area: auto-dos;
+       
     }
-
-    .p-auto-dos {
-        grid-area: p-auto-dos;
+    
+    .onix-imagen img{
+        width: 300px;
+        height: auto;
     }
-
-    .auto-tres {
-        grid-area: auto-tres;
+    
+    h6{
+        margin: 2rem;
     }
-
-    .p-auto-tres {
-        grid-area: p-auto-tres;
-    }
-
-    .auto-cuatro {
-        grid-area: auto-cuatro;
-    }
-
-    .p-auto-cuatro {
-        grid-area: p-auto-cuatro;
-    }
-
-
-
-
-
-
-
-    .auto-uno img {
-        width: 200px;
-
-    }
-
-
-    .auto-dos img {
-        width: 200px;
-
-    }
-
-
-
-    .auto-tres img {
-        width: 200px;
-
-    }
-
-
-    .auto-cuatro img {
-        width: 200px;
-
-    }
+ 
 
     /*USADOS*/
-    .container-usados {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-auto-columns: 1fr;
-        grid-auto-rows: 1fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "usados-uno"
-            "p-usados-uno"
-            "usados-dos"
-            "p-usados-dos"
-            "usados-tres"
-            "p-usados-tres"
-            "usados-cuatro"
-            "p-usados-cuatro"
-            "usados-cinco"
-            "p-usados-cinco"
-            "usados-seis"
-            "p-usados-seis"
-            "usados-siete"
-            "p-usados-siete"
-            "usados-ocho"
-            "p-usados-ocho";
-    }
-
-    .usados-uno {
-        grid-area: usados-uno;
-    }
-
-    .p-usados-uno {
-        grid-area: p-usados-uno;
-    }
-
-    .usados-dos {
-        grid-area: usados-dos;
-    }
-
-    .p-usados-dos {
-        grid-area: p-usados-dos;
-    }
-
-    .usados-tres {
-        grid-area: usados-tres;
-    }
-
-    .p-usados-tres {
-        grid-area: p-usados-tres;
-    }
-
-    .usados-cuatro {
-        grid-area: usados-cuatro;
-    }
-
-    .p-usados-cuatro {
-        grid-area: p-usados-cuatro;
-    }
-
-    .usados-cinco {
-        grid-area: usados-cinco;
-    }
-
-    .p-usados-cinco {
-        grid-area: p-usados-cinco;
-    }
-
-    .usados-seis {
-        grid-area: usados-seis;
-    }
-
-    .p-usados-seis {
-        grid-area: p-usados-seis;
-    }
-
-    .usados-siete {
-        grid-area: usados-siete;
-    }
-
-    .p-usados-siete {
-        grid-area: p-usados-siete;
-    }
-
-    .usados-ocho {
-        grid-area: usados-ocho;
-    }
-
-    .p-usados-ocho {
-        grid-area: p-usados-ocho;
-    }
-
-    .usados-uno a img {
-        width: 200px;
-
-    }
-
-
-    .usados-dos img {
-        width: 200px;
-    }
-
-
-    .usados-tres img {
-        width: 200px;
-    }
-
-    .usados.cuatro img {
-        width: 200px;
-    }
-
-
-    .usados-cinco img {
-        width: 200px;
-    }
-
-
-    .usados-seis img {
-        width: 200px;
-    }
-
-    .usados-siete img {
-        width: 200px;
-    }
-
-
-    .usados-ocho img {
-        width: 200px;
-    }
+  
 
 
     /*LA EMPRESA*/
