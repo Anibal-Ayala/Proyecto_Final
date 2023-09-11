@@ -93,19 +93,22 @@ p {
 }
 
 .logo-inicio img{
-    width: 200px;
+    width: 100px;
 }
 
 .logo-inicio p{
-    text-align: center;
+    display: inline;
+    margin: 2rem;
 }
 
 .img-hsbc{
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 2rem
+    ;
     padding: auto;
    max-width:  100%;
+
   
 }
 .padre-container {
@@ -238,6 +241,7 @@ footer {
     color: black;
     font-family: "titulo-cursiva-dos";
     font-size: 15px;
+    
 
 
 }
@@ -453,17 +457,18 @@ h6{
     .logo-inicio{
         display: flex;
         flex-direction: column;
-        align-items: center;
+       margin: 2rem;
     
     }
     
     .logo-inicio img{
-        width: 200px;
+        width: 100px;
+        padding: 0.5rem;
     }
     
     .logo-inicio p{
-        text-align: center;
-        margin: 2px;
+        display: inline;
+        margin: 2rem;
     }
     
     .img-hsbc{
