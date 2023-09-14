@@ -17,6 +17,9 @@
   padding: 0px;
 }
 
+.header {
+  background-color: #f5f6f7;
+}
 .header h1, .header .h1 {
   margin: 2rem;
   box-shadow: 0px 20px 17px 0px;
@@ -39,7 +42,7 @@
 }
 
 body {
-  background-color: #f5f6f7;
+  background-color: #f5f6f7 !important;
 }
 
 h2, .h2 {
@@ -340,7 +343,7 @@ h3, .h3 {
 }
 
 footer {
-  background-color: rgb(219, 219, 219) !important;
+  background-color: #f5f6f7 !important;
   margin: auto;
 }
 footer .menu-footer {
@@ -373,6 +376,7 @@ footer .rights p {
 }
 footer .rights p .parrafo-footer {
   margin: 2rem !important;
+  background-color: #f5f6f7 !important;
 }
 footer .rights p .parrafo-footer p {
   font-weight: bolder;
