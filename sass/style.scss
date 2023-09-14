@@ -1,9 +1,16 @@
+
+
+@import './assets/tipografia';
+@import './assets/colors';
+@import './assets/extend';
+@import './assets/bootstrap-customizado';
+
 @import './assets/resets';
-@import './assets/fonts';
+
 
 @import './sections/header';
 
-@import './sections/main-inicio';
+@import './sections/main-index';
 @import './sections/main-nuevos';
 @import './sections/main-usados';
 @import './sections/main-contacto';
@@ -13,6 +20,8 @@
 
 @import './assets/mediquerys';
 
+
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 
 

@@ -12,8 +12,8 @@
         padding: 2rem;
         background-color: #f5f6f7;
 
-        a:hover {
-            font-family: sans-serif;
+        &:hover {
+         @extend .destaque;
 
 
         }
@@ -51,7 +51,7 @@
 
 
 body {
-    background-color: #f5f6f7;
+    background-color: $blanco;
 }
 
 h2 {
