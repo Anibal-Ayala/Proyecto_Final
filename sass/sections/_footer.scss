@@ -42,10 +42,14 @@ footer {
 
     .rights p {
         text-align: center;
-        font-family: "titulo-cursiva-dos";
+        font-family: "titulo-cursiva-dos"
+        ;
+        margin: 2rem;
 
         .parrafo-footer {
-            margin: 2rem;
+            margin: 2rem !important;
+            
+           
 
             p {
                 font-weight: bolder;
@@ -55,3 +59,5 @@ footer {
     }
 
 }
+
+

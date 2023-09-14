@@ -1,33 +1,67 @@
-h1 {
-    margin: 2rem;
-    box-shadow: 0px 20px 17px 0px;
-    font-family: "titulo-cursiva";
-    color: darkslategray;
+.header {
+    h1 {
+        margin: 2rem;
+        box-shadow: 0px 20px 17px 0px;
+        font-family: "titulo-cursiva";
+        color: darkslategray;
+
+    }
+
+    .navbar {
+        margin: 2rem;
+        padding: 2rem;
+        background-color: #f5f6f7;
+
+        a:hover {
+            font-family: sans-serif;
+
+
+        }
+
+        a:active {
+            background-color: #f5f6f7;
+            color: rgb(87, 77, 22);
+
+
+        }
+    }
+
 
 }
 
 
 
-.navbar {
-    margin: 2rem;
-    padding: 2rem;
-    background-color: #f5f6f7;
-     a:hover {
-    font-family: sans-serif;
 
 
-}
-a:active {
-    background-color: #f5f6f7;
-    color: rgb(87, 77, 22);
 
 
-}
-}
+
 
 
 
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
+}
+
+
+
+
+
+
+
+body {
+    background-color: #f5f6f7;
+}
+
+h2 {
+    font-family: "titulo-cursiva";
+    text-align: center;
+}
+
+h3 {
+    font-family: "titulo-cursiva-dos";
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center
 }
