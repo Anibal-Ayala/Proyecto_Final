@@ -383,8 +383,8 @@ footer .rights p .parrafo-footer p {
     display: none;
   }
   h1, .h1 {
-    color: black;
-    box-shadow: none;
+    color: black !important;
+    box-shadow: none !important;
   }
   h2, .h2 {
     visibility: hidden;
