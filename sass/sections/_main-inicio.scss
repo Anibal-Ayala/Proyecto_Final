@@ -1,0 +1,138 @@
+p {
+    font-family: "titulo-cursiva-dos";
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+.roads {
+
+    text-align: center;
+    padding: 5px;
+
+}
+
+
+.logo-inicio {
+    display: flex;
+    justify-content: space-evenly;
+
+    img {
+        width: 150px;
+    }
+
+    p {
+        display: inline;
+        margin: 2rem;
+    }
+}
+
+
+
+
+
+.img-hsbc {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    padding: auto;
+    max-width: 100%;
+
+
+}
+
+.padre-container {
+    display: flex;
+    justify-content: center;
+
+    .container {
+        display: grid;
+        grid-template-columns: 5fr 5fr 5fr;
+        grid-template-rows: 3fr 3fr;
+        grid-auto-columns: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        margin: 2rem;
+        justify-items: center;
+        grid-template-areas:
+            "imagen-cotizaciones imagen-servicio imagen-mante"
+            "p-cotizaciones p-servicio p-mante";
+
+        .imagen-cotizaciones {
+            grid-area: imagen-cotizaciones;
+
+            img {
+                width: 300px;
+            }
+
+
+
+        }
+
+        .imagen-servicio {
+            grid-area: imagen-servicio;
+
+            img {
+                width: 300px;
+
+            }
+
+
+        }
+
+        .imagen-mante {
+            grid-area: imagen-mante;
+
+            img {
+
+                width: 300px;
+
+
+            }
+
+
+
+        }
+
+        .p-cotizaciones {
+            grid-area: p-cotizaciones;
+
+            p {
+                text-align: center;
+            }
+
+        }
+
+        .p-servicio {
+            grid-area: p-servicio;
+
+            p {
+                text-align: center;
+            }
+
+
+        }
+
+        .p-mante {
+            grid-area: p-mante;
+
+            p {
+                text-align: center;
+            }
+        }
+
+    }
+
+
+
+
+
+}

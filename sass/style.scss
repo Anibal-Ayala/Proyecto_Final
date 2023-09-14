@@ -1,0 +1,73 @@
+@import './assets/resets';
+
+@import './sections/header';
+
+@import './sections/main-inicio';
+@import './sections/main-nuevos';
+@import './sections/main-usados';
+@import './sections/main-contacto';
+@import './sections/main-la-empresa';
+
+@import './sections/footer';
+
+@import './assets/mq';
+
+
+
+
+
+body {
+    background-color: #f5f6f7;
+}
+
+@font-face {
+    font-family: "titulo-cursiva";
+    src: url('../recursos/fonts/RussoOne-Regular.ttf');
+}
+
+@font-face{
+    font-family: "titulo-cursiva-dos";
+    src: url('../recursos/fonts/Roboto-Light.ttf');
+}
+/*Barra de navegación*/
+
+
+h2{
+    font-family: "titulo-cursiva" ;
+    text-align: center;
+}
+h3 {
+        font-family: "titulo-cursiva-dos";
+        margin: 2rem;
+        padding: 1rem;
+        text-align: center
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------*/
+/*La empresa*/
+
+
+
+
+
+
+/*RESPONSIVE*/
+
+/*Inicio*/
+

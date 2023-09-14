@@ -1,0 +1,42 @@
+main {
+    background-color: white;
+
+    .onix {
+        display: flex;
+        justify-content: flex-start;
+
+        li {
+            text-decoration: none;
+            list-style: none;
+
+            img {
+                width: 100px;
+
+            }
+        }
+    }
+
+    .onix-precio {
+        margin: 2rem;
+    }
+
+    .onix-imagen {
+        display: flex;
+        justify-content: space-between;
+        margin: 2rem;
+
+        img {
+            width: 500px;
+        }
+
+    }
+
+
+
+    h6 {
+        margin: 2rem;
+    }
+
+
+
+}

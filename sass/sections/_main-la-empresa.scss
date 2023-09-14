@@ -1,0 +1,66 @@
+.padre-empresa {
+    display: flex;
+    justify-content: center;
+
+    .container-empresa {
+        display: grid;
+        grid-template-columns: 8fr 8fr 8fr 8fr;
+        grid-template-rows: 8fr 8fr 8fr 8fr;
+        grid-auto-columns: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+
+        grid-template-areas:
+            "imagen-empresa imagen-empresa texto-empresa texto-empresa"
+            "imagen-empresa imagen-empresa texto-empresa texto-empresa"
+            "texto-uno-empresa texto-uno-empresa imagen-uno-empresa imagen-uno-empresa"
+            "texto-uno-empresa texto-uno-empresa imagen-uno-empresa imagen-uno-empresa";
+        align-items: center;
+        justify-items: center;
+        margin: 5px;
+
+        .imagen-empresa {
+            grid-area: imagen-empresa;
+
+            img {
+                width: 500px;
+            }
+
+        }
+
+        .texto-empresa {
+            grid-area: texto-empresa;
+            font-family: "titulo-cursiva-dos";
+            font-weight: bolder;
+
+            p {
+                text-align: center;
+            }
+        }
+
+        .texto-uno-empresa {
+            grid-area: texto-uno-empresa;
+
+            p {
+                text-align: center;
+            }
+        }
+
+    }
+
+    .imagen-uno-empresa {
+        grid-area: imagen-uno-empresa;
+
+        img {
+            width: 500px;
+        }
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+footer {
+
+    margin: auto;
+
+    .menu-footer {
+        display: flex;
+        justify-content: space-evenly;
+
+
+
+
+        ul {
+            list-style: none;
+            margin: 1rem;
+            font-size: 12px;
+            font-weight: 700;
+
+
+            li p {
+                font-family: "titulo-cursiva-dos";
+                font-size: 15px;
+
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-family: "titulo-cursiva-dos";
+                font-size: 15px;
+
+                img {
+
+                    width: 25px;
+                }
+
+
+            }
+
+        }
+
+    }
+
+    .rights p {
+        text-align: center;
+        font-family: "titulo-cursiva-dos";
+
+        .parrafo-footer {
+            margin: 2rem;
+
+            p {
+                font-weight: bolder;
+            }
+        }
+
+    }
+
+}
