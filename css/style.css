@@ -431,44 +431,44 @@ footer .rights p .parrafo-footer p {
     grid-auto-flow: row !important;
     grid-template-areas: "imagen-cotizaciones" "p-cotizaciones" "imagen-servicio" "p-servicio" "imagen-mante" "p-mante" !important;
   }
-  .imagen-cotizaciones {
+  .container .imagen-cotizaciones {
     grid-area: imagen-cotizaciones;
   }
-  .p-cotizaciones {
+  .container .imagen-cotizaciones img {
+    width: 100% !important;
+  }
+  .container .p-cotizaciones {
     grid-area: p-cotizaciones;
   }
-  .imagen-servicio {
+  .container .imagen-servicio {
     grid-area: imagen-servicio;
   }
-  .p-servicio {
+  .container .imagen-servicio img {
+    width: 100% !important;
+  }
+  .container .p-servicio {
     grid-area: p-servicio;
   }
-  .imagen-mante {
+  .container .imagen-mante {
     grid-area: imagen-mante;
   }
-  .p-mante {
+  .container .imagen-mante img {
+    width: 100% !important;
+  }
+  .container .p-mante {
     grid-area: p-mante;
-  }
-  .imagen-cotizaciones img {
-    width: 100% !important;
-  }
-  .imagen-servicio img {
-    width: 100% !important;
-  }
-  .imagen-mante img {
-    width: 100% !important;
   }
   /*Nuevos*/
   .onix {
     display: flex;
     flex-direction: column;
   }
-  li {
+  .onix li {
     text-decoration: none;
     list-style: none;
   }
-  .onix ul li img {
-    width: 50px;
+  .onix li img {
+    width: 50px !important;
   }
   .onix-imagen {
     display: flex;
@@ -485,7 +485,7 @@ footer .rights p .parrafo-footer p {
     margin: 2rem;
   }
   /*Usados*/
-  .usados-container {
+  .padre-usados-container .usados-container {
     display: grid;
     grid-template-columns: 1fr !important;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
@@ -495,61 +495,61 @@ footer .rights p .parrafo-footer p {
     grid-auto-flow: row !important;
     grid-template-areas: "usados-uno" "usados-dos" "usados-tres" "usados-cuatro" "usados-cinco" "usados-seis" "usados-siete" "usados-ocho" "usados-nueve" !important;
   }
-  .usados-uno {
+  .padre-usados-container .usados-container .usados-uno {
     grid-area: usados-uno;
   }
-  .usados-dos {
+  .padre-usados-container .usados-container .usados-uno img {
+    width: 200px !important;
+  }
+  .padre-usados-container .usados-container .usados-dos {
     grid-area: usados-dos;
   }
-  .usados-tres {
+  .padre-usados-container .usados-container .usados-dos img {
+    width: 200px !important;
+  }
+  .padre-usados-container .usados-container .usados-tres {
     grid-area: usados-tres;
   }
-  .usados-cuatro {
+  .padre-usados-container .usados-container .usados-tres img {
+    width: 200px !important;
+  }
+  .padre-usados-container .usados-container .usados-cuatro {
     grid-area: usados-cuatro;
   }
-  .usados-cinco {
+  .padre-usados-container .usados-container .usados-cuatro img {
+    width: 200px !important;
+  }
+  .padre-usados-container .usados-container .usados-cinco {
     grid-area: usados-cinco;
   }
-  .usados-seis {
+  .padre-usados-container .usados-container .usados-cinco img {
+    width: 200px !important;
+  }
+  .padre-usados-container .usados-container .usados-seis {
     grid-area: usados-seis;
   }
-  .usados-siete {
+  .padre-usados-container .usados-container .usados-seis img {
+    width: 200px !important;
+  }
+  .padre-usados-container .usados-container .usados-siete {
     grid-area: usados-siete;
   }
-  .usados-ocho {
+  .padre-usados-container .usados-container .usados-siete img {
+    width: 200px !important;
+  }
+  .padre-usados-container .usados-container .usados-ocho {
     grid-area: usados-ocho;
   }
-  .usados-nueve {
+  .padre-usados-container .usados-container .usados-ocho img {
+    width: 200px !important;
+  }
+  .padre-usados-container .usados-container .usados-nueve {
     grid-area: usados-nueve;
   }
-  .usados-uno img {
+  .padre-usados-container .usados-container .usados-nueve img {
     width: 200px !important;
   }
-  .usados-dos img {
-    width: 200px !important;
-  }
-  .usados-tres img {
-    width: 200px !important;
-  }
-  .usados-cuatro img {
-    width: 200px !important;
-  }
-  .usados-cinco img {
-    width: 200px !important;
-  }
-  .usados-seis img {
-    width: 200px !important;
-  }
-  .usados-siete img {
-    width: 200px !important;
-  }
-  .usados-ocho img {
-    width: 200px !important;
-  }
-  .usados-nueve img {
-    width: 200px !important;
-  }
-  .btn {
+  .padre-usados-container .usados-container .btn {
     width: 100px !important;
   }
   /* Contacto*/
@@ -565,7 +565,7 @@ footer .rights p .parrafo-footer p {
     width: 75px;
   }
   /*La Empresa*/
-  .container-empresa {
+  .padre-empresa .container-empresa {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr !important;
     grid-template-rows: 1fr 1fr 1fr 1fr !important;
@@ -574,25 +574,25 @@ footer .rights p .parrafo-footer p {
     grid-template-areas: ". imagen-empresa ." ". texto-empresa ." ". imagen-uno-empresa ." ". texto-uno-empresa ." !important;
     align-items: center !important;
   }
-  .imagen-empresa {
+  .padre-empresa .container-empresa .imagen-empresa {
     grid-area: imagen-empresa;
   }
-  .texto-empresa {
+  .padre-empresa .container-empresa .imagen-empresa img {
+    width: 300px !important;
+    margin: 5px !important;
+  }
+  .padre-empresa .container-empresa .texto-empresa {
     grid-area: texto-empresa;
   }
-  .imagen-uno-empresa {
+  .padre-empresa .container-empresa .imagen-uno-empresa {
     grid-area: imagen-uno-empresa;
   }
-  .texto-uno-empresa {
+  .padre-empresa .container-empresa .imagen-uno-empresa img {
+    width: 300px !important;
+    margin: 5px !important;
+  }
+  .padre-empresa .container-empresa .texto-uno-empresa {
     grid-area: texto-uno-empresa;
-  }
-  .imagen-empresa img {
-    width: 300px !important;
-    margin: 5px !important;
-  }
-  .imagen-uno-empresa img {
-    width: 300px !important;
-    margin: 5px !important;
   }
 }
 /*!

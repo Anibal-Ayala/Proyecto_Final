@@ -35,17 +35,18 @@
         flex-direction: column;
         margin: 2rem;
 
+        img {
+            width: 100px;
+            padding: 0.5rem;
+        }
+
+        p {
+            display: inline;
+            margin: 2rem;
+        }
     }
 
-    .logo-inicio img {
-        width: 100px;
-        padding: 0.5rem;
-    }
 
-    .logo-inicio p {
-        display: inline;
-        margin: 2rem;
-    }
 
     .img-hsbc {
         display: flex;
@@ -54,10 +55,10 @@
         padding: auto;
         margin: 2rem;
 
-    }
+        img {
+            width: 100%;
+        }
 
-    .img-hsbc img {
-        width: 100%;
     }
 
     .container {
@@ -75,45 +76,54 @@
             "imagen-mante"
             "p-mante" !important;
 
-    }
+        .imagen-cotizaciones {
+            grid-area: imagen-cotizaciones;
 
-    .imagen-cotizaciones {
-        grid-area: imagen-cotizaciones;
-    }
+            img {
+                width: 100% !important;
+            }
+        }
 
-    .p-cotizaciones {
-        grid-area: p-cotizaciones;
-    }
+        .p-cotizaciones {
+            grid-area: p-cotizaciones;
+        }
 
-    .imagen-servicio {
-        grid-area: imagen-servicio;
-    }
+        .imagen-servicio {
+            grid-area: imagen-servicio;
 
-    .p-servicio {
-        grid-area: p-servicio;
-    }
+            img {
+                width: 100% !important;
+            }
+        }
 
-    .imagen-mante {
-        grid-area: imagen-mante;
-    }
+        .p-servicio {
+            grid-area: p-servicio;
+        }
 
-    .p-mante {
-        grid-area: p-mante;
-    }
+        .imagen-mante {
+            grid-area: imagen-mante;
 
-    .imagen-cotizaciones img {
-        width: 100% !important;
-    }
+            img {
+                width: 100% !important;
+            }
+        }
 
-
-    .imagen-servicio img {
-        width: 100% !important;
-    }
-
-    .imagen-mante img {
-        width: 100% !important;
+        .p-mante {
+            grid-area: p-mante;
+        }
 
     }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -123,15 +133,17 @@
     .onix {
         display: flex;
         flex-direction: column;
-    }
 
-    li {
-        text-decoration: none;
-        list-style: none;
-    }
+        li {
+            text-decoration: none;
+            list-style: none;
 
-    .onix ul li img {
-        width: 50px;
+            img {
+                width: 50px !important;
+
+            }
+
+        }
 
     }
 
@@ -142,123 +154,147 @@
         flex-direction: column-reverse;
         align-items: center;
 
+        img {
+            width: 200px !important;
+            height: auto;
+            margin: 2rem !important;
+        }
+
 
     }
 
-    .onix-imagen img {
-        width: 200px !important;
-        height: auto;
-        margin: 2rem !important;
-    }
+
 
     h6 {
         margin: 2rem;
     }
 
     /*Usados*/
+    .padre-usados-container {
+        .usados-container {
+            display: grid;
+            grid-template-columns: 1fr !important;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
+            grid-auto-columns: 1fr !important;
+            grid-auto-rows: 1fr !important;
+            gap: 0px 0px !important;
+            grid-auto-flow: row !important;
+            grid-template-areas:
+                "usados-uno"
+                "usados-dos"
+                "usados-tres"
+                "usados-cuatro"
+                "usados-cinco"
+                "usados-seis"
+                "usados-siete"
+                "usados-ocho"
+                "usados-nueve" !important;
 
-    .usados-container {
-        display: grid;
-        grid-template-columns: 1fr !important;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
-        grid-auto-columns: 1fr !important;
-        grid-auto-rows: 1fr !important;
-        gap: 0px 0px !important;
-        grid-auto-flow: row !important;
-        grid-template-areas:
-            "usados-uno"
-            "usados-dos"
-            "usados-tres"
-            "usados-cuatro"
-            "usados-cinco"
-            "usados-seis"
-            "usados-siete"
-            "usados-ocho"
-            "usados-nueve" !important;
+            .usados-uno {
+                grid-area: usados-uno;
+
+                img {
+                    width: 200px !important;
+                }
+
+            }
+
+            .usados-dos {
+                grid-area: usados-dos;
+
+                img {
+                    width: 200px !important;
+                }
+
+            }
+
+            .usados-tres {
+                grid-area: usados-tres;
+
+                img {
+                    width: 200px !important;
+                }
+
+            }
+
+            .usados-cuatro {
+                grid-area: usados-cuatro;
+
+                img {
+                    width: 200px !important;
+                }
+
+            }
+
+            .usados-cinco {
+                grid-area: usados-cinco;
+
+                img {
+                    width: 200px !important;
+                }
+
+            }
+
+            .usados-seis {
+                grid-area: usados-seis;
+
+                img {
+                    width: 200px !important;
+                }
+
+            }
+
+            .usados-siete {
+                grid-area: usados-siete;
+
+                img {
+                    width: 200px !important;
+                }
+
+            }
+
+            .usados-ocho {
+                grid-area: usados-ocho;
+
+                img {
+                    width: 200px !important;
+                }
+
+            }
+
+            .usados-nueve {
+                grid-area: usados-nueve;
+
+                img {
+                    width: 200px !important;
+                }
+
+            }
+
+            .btn {
+                width: 100px !important;
+            }
+        }
     }
 
-    .usados-uno {
-        grid-area: usados-uno;
-    }
-
-    .usados-dos {
-        grid-area: usados-dos;
-    }
-
-    .usados-tres {
-        grid-area: usados-tres;
-    }
-
-    .usados-cuatro {
-        grid-area: usados-cuatro;
-    }
-
-    .usados-cinco {
-        grid-area: usados-cinco;
-    }
-
-    .usados-seis {
-        grid-area: usados-seis;
-    }
-
-    .usados-siete {
-        grid-area: usados-siete;
-    }
-
-    .usados-ocho {
-        grid-area: usados-ocho;
-    }
-
-    .usados-nueve {
-        grid-area: usados-nueve;
-    }
-
-    .usados-uno img {
-        width: 200px !important;
-    }
-
-
-    .usados-dos img {
-        width: 200px !important;
-    }
-
-
-    .usados-tres img {
-        width: 200px !important;
-    }
-
-    .usados-cuatro img {
-        width: 200px !important;
-    }
-
-
-    .usados-cinco img {
-        width: 200px !important;
-    }
 
 
 
-    .usados-seis img {
-        width: 200px !important;
-    }
 
 
 
-    .usados-siete img {
-        width: 200px !important;
-    }
 
-    .usados-ocho img {
-        width: 200px !important;
-    }
 
-    .usados-nueve img {
-        width: 200px !important;
-    }
 
-    .btn {
-        width: 100px !important;
-    }
+
+
+
+
+
+
+
+
+
 
 
     /* Contacto*/
@@ -266,13 +302,13 @@
         display: flex;
         justify-content: center;
 
+        iframe {
+            margin: 5px;
+            width: 200px;
+        }
     }
 
 
-    .mapa iframe {
-        margin: 5px;
-        width: 200px;
-    }
 
 
 
@@ -282,50 +318,62 @@
 
     /*La Empresa*/
 
+    .padre-empresa {
 
-    .container-empresa {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr !important;
-        grid-template-rows: 1fr 1fr 1fr 1fr !important;
-        gap: 0px 0px !important;
-        grid-auto-flow: row !important;
-        grid-template-areas:
-            ". imagen-empresa ."
-            ". texto-empresa ."
-            ". imagen-uno-empresa ."
-            ". texto-uno-empresa ." !important;
-        align-items: center !important;
+        .container-empresa {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr !important;
+            grid-template-rows: 1fr 1fr 1fr 1fr !important;
+            gap: 0px 0px !important;
+            grid-auto-flow: row !important;
+            grid-template-areas:
+                ". imagen-empresa ."
+                ". texto-empresa ."
+                ". imagen-uno-empresa ."
+                ". texto-uno-empresa ." !important;
+            align-items: center !important;
+
+            .imagen-empresa {
+                grid-area: imagen-empresa;
+
+                img {
+                    width: 300px !important;
+                    margin: 5px !important;
+
+                }
+            }
+
+            .texto-empresa {
+                grid-area: texto-empresa;
+            }
+
+            .imagen-uno-empresa {
+                grid-area: imagen-uno-empresa;
+
+                img {
+                    width: 300px !important;
+                    margin: 5px !important;
+                }
+
+            }
+
+            .texto-uno-empresa {
+                grid-area: texto-uno-empresa;
+            }
+
+        }
     }
 
-    .imagen-empresa {
-        grid-area: imagen-empresa;
-    }
-
-    .texto-empresa {
-        grid-area: texto-empresa;
-    }
-
-    .imagen-uno-empresa {
-        grid-area: imagen-uno-empresa;
-    }
-
-    .texto-uno-empresa {
-        grid-area: texto-uno-empresa;
-    }
 
 
 
 
-    .imagen-empresa img {
-        width: 300px !important;
-        margin: 5px !important;
-
-    }
 
 
-    .imagen-uno-empresa img {
-        width: 300px !important;
-        margin: 5px !important;
-    }
+
+
+
+
+
 
 }
