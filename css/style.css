@@ -315,7 +315,7 @@ h3, .h3 {
   grid-area: imagen-empresa;
 }
 .padre-empresa .container-empresa .imagen-empresa img {
-  width: 500px;
+  width: 600px;
 }
 .padre-empresa .container-empresa .texto-empresa {
   grid-area: texto-empresa;
@@ -335,7 +335,7 @@ h3, .h3 {
   grid-area: imagen-uno-empresa;
 }
 .padre-empresa .imagen-uno-empresa img {
-  width: 500px;
+  width: 600px;
 }
 
 footer {
