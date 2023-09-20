@@ -594,6 +594,13 @@ footer .rights p .parrafo-footer p {
   .padre-empresa .container-empresa .texto-uno-empresa {
     grid-area: texto-uno-empresa;
   }
+  .menu-footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .menu-footer .vr {
+    visibility: hidden !important;
+  }
 }
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)

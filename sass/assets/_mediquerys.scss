@@ -364,4 +364,11 @@
 
         }
     }
+    .menu-footer{
+        display: flex;
+        flex-wrap: wrap;
+        .vr{
+            visibility: hidden !important;
+        }
+    }
 }
