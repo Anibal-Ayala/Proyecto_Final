@@ -63,11 +63,6 @@ p {
   font-weight: bold;
 }
 
-.roads {
-  text-align: center;
-  padding: 5px;
-}
-
 .logo-inicio {
   display: flex;
   justify-content: space-evenly;
@@ -161,6 +156,7 @@ main .onix-imagen {
   display: flex;
   justify-content: space-between;
   margin: 2rem;
+  max-width: 1024px;
 }
 main .onix-imagen img {
   width: 500px;
