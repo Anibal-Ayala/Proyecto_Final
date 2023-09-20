@@ -471,6 +471,7 @@ footer .rights p .parrafo-footer p {
     margin: 2rem;
     flex-direction: column-reverse;
     align-items: center;
+    max-width: 500px !important;
   }
   .onix-imagen img {
     width: 200px !important;
