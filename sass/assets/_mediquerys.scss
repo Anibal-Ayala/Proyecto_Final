@@ -353,6 +353,8 @@
 
             .texto-empresa {
                 grid-area: texto-empresa;
+                margin-left: 0
+                ;
             }
 
             .imagen-uno-empresa {
@@ -361,12 +363,15 @@
                 img {
                     width: 300px !important;
                     margin: 5px !important;
+                
                 }
 
             }
 
             .texto-uno-empresa {
                 grid-area: texto-uno-empresa;
+                margin-right: 0
+                ;
             }
 
         }

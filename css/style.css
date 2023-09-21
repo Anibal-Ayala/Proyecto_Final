@@ -342,7 +342,7 @@ h3, .h3 {
   font-family: "titulo-cursiva-dos";
   font-weight: bolder;
   max-width: 400px;
-  margin-left: 4rem;
+  margin-left: 5rem;
 }
 .padre-empresa .container-empresa .texto-empresa p {
   text-align: center;
@@ -352,7 +352,7 @@ h3, .h3 {
   max-width: 400px;
   font-family: "titulo-cursiva-dos";
   font-weight: bolder;
-  margin-right: 2rem;
+  margin-right: 5rem;
 }
 .padre-empresa .container-empresa .texto-uno-empresa p {
   text-align: center;
@@ -362,7 +362,7 @@ h3, .h3 {
 }
 .padre-empresa .imagen-uno-empresa img {
   width: 550px;
-  margin-right: 4rem;
+  margin-right: 5rem;
 }
 
 footer {
@@ -610,6 +610,7 @@ footer .rights p .parrafo-footer p {
   }
   .padre-empresa .container-empresa .texto-empresa {
     grid-area: texto-empresa;
+    margin-left: 0;
   }
   .padre-empresa .container-empresa .imagen-uno-empresa {
     grid-area: imagen-uno-empresa;
@@ -620,6 +621,7 @@ footer .rights p .parrafo-footer p {
   }
   .padre-empresa .container-empresa .texto-uno-empresa {
     grid-area: texto-uno-empresa;
+    margin-right: 0;
   }
   /*FOOTER*/
   .menu-footer {
