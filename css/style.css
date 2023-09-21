@@ -287,7 +287,10 @@ main h6, main .h6 {
   margin: auto;
 }
 
-.form-floating {
+.formulario {
+  padding: 2rem;
+}
+.formulario .form-floating {
   width: 300px;
   margin: 10px;
 }
