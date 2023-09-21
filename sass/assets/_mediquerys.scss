@@ -55,9 +55,8 @@
         padding: auto;
         margin: 2rem;
 
-        img {
-            width: 100%;
-        }
+    
+
 
     }
 
@@ -111,14 +110,13 @@
         .p-mante {
             grid-area: p-mante;
         }
-
+      
     }
 
 
 
 
-
-
+ 
 
 
 
@@ -364,11 +362,14 @@
 
         }
     }
+
+    /*FOOTER*/
     .menu-footer{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
         .vr{
             visibility: hidden !important;
         }
+
     }
 }
