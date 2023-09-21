@@ -54,8 +54,8 @@
         margin: auto;
         padding: auto;
         margin: 2rem;
- 
-    
+
+
 
 
     }
@@ -110,20 +110,22 @@
         .p-mante {
             grid-area: p-mante;
         }
-      
+
     }
 
 
-    .credito{
-    .boton-credito btn{
-       width: 150px !important;
+    .credito {
+        .boton-credito {
+            .btn {
+                width: 150px !important;
+            }
+        }
+
+
+
+
     }
 
-   
-
-
-}
- 
 
 
 
@@ -371,10 +373,11 @@
     }
 
     /*FOOTER*/
-    .menu-footer{
+    .menu-footer {
         display: flex;
-        flex-wrap: wrap; 
-        .vr{
+        flex-wrap: wrap;
+
+        .vr {
             visibility: hidden !important;
         }
 

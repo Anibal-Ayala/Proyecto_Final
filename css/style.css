@@ -470,7 +470,7 @@ footer .rights p .parrafo-footer p {
   .container .p-mante {
     grid-area: p-mante;
   }
-  .credito .boton-credito btn {
+  .credito .boton-credito .btn {
     width: 150px !important;
   }
   /*Nuevos*/
