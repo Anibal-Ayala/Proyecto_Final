@@ -374,8 +374,9 @@
 
     /*FOOTER*/
     .menu-footer {
-        display: flex;
-        flex-wrap: wrap;
+        display: flex !important;
+        flex-wrap: wrap !important;
+     justify-content: flex-start !important;
 
         .vr {
             visibility: hidden !important;
