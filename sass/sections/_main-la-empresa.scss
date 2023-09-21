@@ -31,7 +31,8 @@ h3 {
             grid-area: imagen-empresa;
 
             img {
-                width: 600px;
+                width: 550px;
+                margin-left: 5rem;
             }
 
         }
@@ -40,17 +41,27 @@ h3 {
             grid-area: texto-empresa;
             font-family: "titulo-cursiva-dos";
             font-weight: bolder;
+            max-width: 400px;
+            margin-left: 4rem;
 
             p {
                 text-align: center;
+
+
             }
+
         }
 
         .texto-uno-empresa {
             grid-area: texto-uno-empresa;
+            max-width: 400px;
+            font-family: "titulo-cursiva-dos";
+            font-weight: bolder;
+            margin-right: 2rem;
 
             p {
                 text-align: center;
+
             }
         }
 
@@ -60,7 +71,8 @@ h3 {
         grid-area: imagen-uno-empresa;
 
         img {
-            width: 600px;
+            width: 550px;
+            margin-right: 4rem;
         }
     }
 }

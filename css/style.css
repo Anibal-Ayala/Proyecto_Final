@@ -334,18 +334,25 @@ h3, .h3 {
   grid-area: imagen-empresa;
 }
 .padre-empresa .container-empresa .imagen-empresa img {
-  width: 600px;
+  width: 550px;
+  margin-left: 5rem;
 }
 .padre-empresa .container-empresa .texto-empresa {
   grid-area: texto-empresa;
   font-family: "titulo-cursiva-dos";
   font-weight: bolder;
+  max-width: 400px;
+  margin-left: 4rem;
 }
 .padre-empresa .container-empresa .texto-empresa p {
   text-align: center;
 }
 .padre-empresa .container-empresa .texto-uno-empresa {
   grid-area: texto-uno-empresa;
+  max-width: 400px;
+  font-family: "titulo-cursiva-dos";
+  font-weight: bolder;
+  margin-right: 2rem;
 }
 .padre-empresa .container-empresa .texto-uno-empresa p {
   text-align: center;
@@ -354,7 +361,8 @@ h3, .h3 {
   grid-area: imagen-uno-empresa;
 }
 .padre-empresa .imagen-uno-empresa img {
-  width: 600px;
+  width: 550px;
+  margin-right: 4rem;
 }
 
 footer {
