@@ -80,6 +80,8 @@ p {
   justify-content: center;
   margin: 2rem;
   padding: auto;
+}
+.img-hsbc img {
   max-width: 100%;
 }
 
