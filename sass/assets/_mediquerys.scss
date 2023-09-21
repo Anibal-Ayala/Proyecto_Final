@@ -33,7 +33,7 @@
     .logo-inicio {
         display: flex;
         flex-direction: column;
-        margin: 2rem;
+        margin: 0 !important;
 
         img {
             width: 100px;
@@ -114,8 +114,15 @@
     }
 
 
+    .credito{
+    .boton-credito btn{
+       width: 150px !important;
+    }
+
+   
 
 
+}
  
 
 

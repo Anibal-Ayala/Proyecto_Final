@@ -66,6 +66,7 @@ p {
 .logo-inicio {
   display: flex;
   justify-content: space-evenly;
+  padding: 2rem;
 }
 .logo-inicio img {
   width: 150px;
@@ -135,6 +136,19 @@ p {
 }
 .padre-container .container .p-mante p {
   text-align: center;
+}
+
+.credito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.credito img {
+  width: 150px;
+}
+.credito p {
+  text-align: center;
+  margin: 1rem;
 }
 
 main {
@@ -403,7 +417,7 @@ footer .rights p .parrafo-footer p {
   .logo-inicio {
     display: flex;
     flex-direction: column;
-    margin: 2rem;
+    margin: 0 !important;
   }
   .logo-inicio img {
     width: 100px;
@@ -455,6 +469,9 @@ footer .rights p .parrafo-footer p {
   }
   .container .p-mante {
     grid-area: p-mante;
+  }
+  .credito .boton-credito btn {
+    width: 150px !important;
   }
   /*Nuevos*/
   .onix {
