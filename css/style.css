@@ -124,18 +124,21 @@ p {
 }
 .padre-container .container .p-cotizaciones p {
   text-align: center;
+  margin: 1rem;
 }
 .padre-container .container .p-servicio {
   grid-area: p-servicio;
 }
 .padre-container .container .p-servicio p {
   text-align: center;
+  margin: 1rem;
 }
 .padre-container .container .p-mante {
   grid-area: p-mante;
 }
 .padre-container .container .p-mante p {
   text-align: center;
+  margin: 1rem;
 }
 
 .credito {
