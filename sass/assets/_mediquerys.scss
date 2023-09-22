@@ -114,7 +114,19 @@
     }
 
 
-    .credito {
+    .credito {   display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        img {
+            width: 150px;
+        }
+    
+        p {
+            text-align: center;
+            margin: 1rem;
+        }
+    
         .boton-credito {
             .btn {
                 width: 150px !important;
