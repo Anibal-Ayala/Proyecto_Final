@@ -1,8 +1,9 @@
 @media screen and (max-width: 1024px) {
-    .header{
+    .header {
         display: flex !important;
         position: sticky;
-        top: 0; 
+        top: 0;
+        z-index: 4;
     }
 
     .navbar-brand {
@@ -118,19 +119,20 @@
     }
 
 
-    .credito {   display: flex;
+    .credito {
+        display: flex;
         flex-direction: column;
         align-items: center;
-    
+
         img {
             width: 150px;
         }
-    
+
         p {
             text-align: center;
             margin: 1rem;
         }
-    
+
         .boton-credito {
             .btn {
                 width: 150px !important;
@@ -378,7 +380,7 @@
                 img {
                     width: 300px !important;
                     margin: 5px !important;
-                
+
                 }
 
             }
@@ -395,12 +397,12 @@
     .menu-footer {
         display: flex !important;
         flex-wrap: wrap !important;
-     justify-content: flex-start !important;
+        justify-content: flex-start !important;
 
         .vr {
             visibility: hidden !important;
         }
 
-      
+
     }
 }
