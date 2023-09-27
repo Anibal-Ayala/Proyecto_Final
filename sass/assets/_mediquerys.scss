@@ -1,5 +1,9 @@
 @media screen and (max-width: 1024px) {
-
+    .header{
+        display: flex !important;
+        position: sticky;
+        top: 0; 
+    }
 
     .navbar-brand {
         display: none;
@@ -397,5 +401,6 @@
             visibility: hidden !important;
         }
 
+      
     }
 }
