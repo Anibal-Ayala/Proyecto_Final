@@ -71,6 +71,9 @@ p {
 .logo-inicio img {
   width: 150px;
 }
+.logo-inicio img:hover {
+  transform: scale(1.2);
+}
 .logo-inicio p {
   display: inline;
   margin: 2rem;
@@ -153,6 +156,9 @@ p {
 }
 .credito .btn {
   margin: 2rem;
+}
+.credito .btn:hover {
+  transform: scale(1.2);
 }
 
 main {

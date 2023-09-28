@@ -15,6 +15,10 @@ p {
 
     img {
         width: 150px;
+
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 
     p {
@@ -144,7 +148,11 @@ p {
     }
 
 
-    .btn{
+    .btn {
         margin: 2rem;
+
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 }
